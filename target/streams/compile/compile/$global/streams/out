@@ -1,0 +1,28 @@
+[0m[[0m[31merror[0m] [0m[0m/home/chenghsien/vsts/actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala:110:16: not found: value <[0m
+[0m[[0m[31merror[0m] [0m[0m        case e < this.elem => {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/chenghsien/vsts/actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala:121:16: not found: value >[0m
+[0m[[0m[31merror[0m] [0m[0m        case e > this.elem => {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/chenghsien/vsts/actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala:133:16: not found: value ==[0m
+[0m[[0m[31merror[0m] [0m[0m        case e == this.elem => req ! OperationFinished(id)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/chenghsien/vsts/actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala:138:16: not found: value ==[0m
+[0m[[0m[31merror[0m] [0m[0m        case e == this.elem => req ! ContainsResult(id, true)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/chenghsien/vsts/actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala:139:16: not found: value <[0m
+[0m[[0m[31merror[0m] [0m[0m        case e < this.elem => {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/chenghsien/vsts/actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala:143:16: not found: value >[0m
+[0m[[0m[31merror[0m] [0m[0m        case e > this.elem => {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/chenghsien/vsts/actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala:152:16: not found: value ==[0m
+[0m[[0m[31merror[0m] [0m[0m        case e == this.elem => {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/chenghsien/vsts/actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala:156:16: not found: value <[0m
+[0m[[0m[31merror[0m] [0m[0m        case e < this.elem => {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/chenghsien/vsts/actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala:160:16: not found: value >[0m
+[0m[[0m[31merror[0m] [0m[0m        case e > this.elem => {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m9 errors found[0m

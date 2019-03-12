@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0529acd-edbd-4828-b5c5-d81908482a26" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="BinaryTreeSuite.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/actorbintree/BinaryTreeSuite.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#97#145#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreeSet.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/actorbintree/BinaryTreeSet.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="218" column="3" selection-start-line="218" selection-start-column="3" selection-end-line="218" selection-end-column="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#97#154#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Actor.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.5.16/akka-actor_2.11-2.5.16.jar!/akka/actor/Actor.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>receive</find>
+      <find>BinaryTreeSet</find>
+      <find>Copy</find>
+      <find>root</find>
+      <find>copy</find>
+      <find>gc</find>
+      <find>sender</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/scala/actorbintree/BinaryTreeSuite.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/actorbintree/BinaryTreeSet.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="34" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="reactive-actorbintree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="actorbintree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactive-actorbintree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="actorbintree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactive-actorbintree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="actorbintree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactive-actorbintree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="actorbintree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactive-actorbintree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="actorbintree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="actorbintree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactive-actorbintree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="actorbintree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactive-actorbintree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="actorbintree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactive-actorbintree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="actorbintree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="actorbintree" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="actorbintree" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="actorbintree" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="actorbintree-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="reactive-actorbintree" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="actorbintree" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="actorbintree-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/scalaworkspace/AWScala" value="1484033855457" />
+        <entry key="$USER_HOME$/scalaworkspace/AdminConsole/AdminConsole" value="1473748358238" />
+        <entry key="$USER_HOME$/scalaworkspace/Scala-High-Performance-Programming" value="1477299498378" />
+        <entry key="$USER_HOME$/scalaworkspace/ad-admin-report-service" value="1496825915920" />
+        <entry key="$USER_HOME$/scalaworkspace/ad-config-service" value="1496373452169" />
+        <entry key="$USER_HOME$/scalaworkspace/ad-exchange-service" value="1481280697643" />
+        <entry key="$USER_HOME$/scalaworkspace/ad-fillrate-service" value="1481774778345" />
+        <entry key="$USER_HOME$/scalaworkspace/ad-impression-click-service" value="1489546719980" />
+        <entry key="$USER_HOME$/scalaworkspace/ad-payout-admin" value="1505973526461" />
+        <entry key="$USER_HOME$/scalaworkspace/ad-payout-admin-service" value="1505973983514" />
+        <entry key="$USER_HOME$/scalaworkspace/ad-price-service" value="2957787259773" />
+        <entry key="$USER_HOME$/scalaworkspace/ad-proxy-service" value="1514864889539" />
+        <entry key="$USER_HOME$/scalaworkspace/ad-registration-service" value="1488335063190" />
+        <entry key="$USER_HOME$/scalaworkspace/ad-release-service" value="1483928810226" />
+        <entry key="$USER_HOME$/scalaworkspace/ad-service/ad-service" value="1474601447075" />
+        <entry key="$USER_HOME$/scalaworkspace/ad-track-service" value="1481772701779" />
+        <entry key="$USER_HOME$/scalaworkspace/ad-user-profile-service" value="1487128323809" />
+        <entry key="$USER_HOME$/scalaworkspace/akka/akka-samples/akka-sample-main-scala" value="1478845667670" />
+        <entry key="$USER_HOME$/scalaworkspace/ams-vendor-service" value="1488854007162" />
+        <entry key="$USER_HOME$/scalaworkspace/app-ad-service" value="1476776513653" />
+        <entry key="$USER_HOME$/scalaworkspace/aws-request-signer" value="1484101775886" />
+        <entry key="$USER_HOME$/scalaworkspace/awsscala/AWScala" value="1474621549891" />
+        <entry key="$USER_HOME$/scalaworkspace/backend83/polaris_backend" value="1469519863300" />
+        <entry key="$USER_HOME$/scalaworkspace/backend86/polaris_backend" value="1481020512920" />
+        <entry key="$USER_HOME$/scalaworkspace/camp-gomobi-service" value="1481279041492" />
+        <entry key="$USER_HOME$/scalaworkspace/chenghsien-roles/vr-roles-service" value="1476175309488" />
+        <entry key="$USER_HOME$/scalaworkspace/content-download-service" value="1484028503674" />
+        <entry key="$USER_HOME$/scalaworkspace/content-upload-service" value="1484357571808" />
+        <entry key="$USER_HOME$/scalaworkspace/content-verify-service" value="1480996311796" />
+        <entry key="$USER_HOME$/scalaworkspace/cosera/recfun" value="1497943924000" />
+        <entry key="$USER_HOME$/scalaworkspace/country-lang-currency" value="1480072914925" />
+        <entry key="$USER_HOME$/scalaworkspace/country-settings" value="1474857609206" />
+        <entry key="$USER_HOME$/scalaworkspace/coursera-scala/forcomp" value="1497948998000" />
+        <entry key="$USER_HOME$/scalaworkspace/coursera-scala/objsets" value="1497946654000" />
+        <entry key="$USER_HOME$/scalaworkspace/coursera-scala/patmat" value="1497947860000" />
+        <entry key="$USER_HOME$/scalaworkspace/coursera-scala/quickcheck" value="1519871062000" />
+        <entry key="$USER_HOME$/scalaworkspace/drm-white-list-service" value="1491810081525" />
+        <entry key="$USER_HOME$/scalaworkspace/finagle-redis-sample" value="1516970345296" />
+        <entry key="$USER_HOME$/scalaworkspace/finatra.g8" value="1483604869046" />
+        <entry key="$USER_HOME$/scalaworkspace/finatra.g8/app-material-verify" value="1483606350537" />
+        <entry key="$USER_HOME$/scalaworkspace/finatra.g8/finatra-sample" value="1497335776815" />
+        <entry key="$USER_HOME$/scalaworkspace/finatra.g8/sample1" value="1492744378319" />
+        <entry key="$USER_HOME$/scalaworkspace/finatra.g8/sample10312017" value="1509436356048" />
+        <entry key="$USER_HOME$/scalaworkspace/finatra.g8/sample12202017" value="1513737386454" />
+        <entry key="$USER_HOME$/scalaworkspace/finatra.g8/sample20180102" value="1514864051958" />
+        <entry key="$USER_HOME$/scalaworkspace/finatra.g8/test09292017" value="1506654284739" />
+        <entry key="$USER_HOME$/scalaworkspace/finatra.g8/wiremocktest" value="1497872029452" />
+        <entry key="$USER_HOME$/scalaworkspace/finatra/examples/java-http-server" value="1506918223226" />
+        <entry key="$USER_HOME$/scalaworkspace/finatra/examples/twitter-clone" value="1487235105858" />
+        <entry key="$USER_HOME$/scalaworkspace/finatra/finatra-2.1.4/examples/twitter-clone" value="1456430088000" />
+        <entry key="$USER_HOME$/scalaworkspace/free-app-promo-service" value="1481772075693" />
+        <entry key="$USER_HOME$/scalaworkspace/funsets" value="1497945484000" />
+        <entry key="$USER_HOME$/scalaworkspace/hello-slick/hello-slick-3.1" value="1461411828000" />
+        <entry key="$USER_HOME$/scalaworkspace/htc-ad-campaign-pure-image/htc-ad-campaign-service" value="1506067385859" />
+        <entry key="$USER_HOME$/scalaworkspace/htc-ad-campaign-service" value="1481876988484" />
+        <entry key="$USER_HOME$/scalaworkspace/htc-ad-campaign-service-develop/htc-ad-campaign-service" value="1500454673032" />
+        <entry key="$USER_HOME$/scalaworkspace/neo-userapps-service" value="1488800789190" />
+        <entry key="$USER_HOME$/scalaworkspace/payment-admin-report-service" value="1507182766925" />
+        <entry key="$USER_HOME$/scalaworkspace/payout_scala" value="1478670296939" />
+        <entry key="$USER_HOME$/scalaworkspace/polaris-dev-local/polaris-dev/app/theme-events-service" value="1473322324269" />
+        <entry key="$USER_HOME$/scalaworkspace/polaris-dev-local/polaris-dev/app/theme-themeprices-service" value="1471578046048" />
+        <entry key="$USER_HOME$/scalaworkspace/polaris_backend" value="1496207631070" />
+        <entry key="$USER_HOME$/scalaworkspace/rediscala-demo" value="1517487741745" />
+        <entry key="$USER_HOME$/scalaworkspace/repo-app-ad-service/app-ad-service" value="1476755493810" />
+        <entry key="$USER_HOME$/scalaworkspace/roles-dev/vr-roles-service" value="1475570480184" />
+        <entry key="$USER_HOME$/scalaworkspace/roles-develop/vr-roles-service" value="1476176065305" />
+        <entry key="$USER_HOME$/scalaworkspace/roles-service/vr-roles-service" value="1474537551370" />
+        <entry key="$USER_HOME$/scalaworkspace/s3-upload" value="1484212096000" />
+        <entry key="$USER_HOME$/scalaworkspace/scala-aws-lambda-seed" value="1484020890847" />
+        <entry key="$USER_HOME$/scalaworkspace/scala-aws-lambda-seed/test1" value="1484021351747" />
+        <entry key="$USER_HOME$/scalaworkspace/subscription-plan" value="1516786009771" />
+        <entry key="$USER_HOME$/scalaworkspace/vr-leaderboard-service" value="1487827992867" />
+        <entry key="$USER_HOME$/scalaworkspace/vr-roles-service" value="1476152079257" />
+        <entry key="$USER_HOME$/scalaworkspace/wiremock-scala-examples" value="1497862761136" />
+        <entry key="$USER_HOME$/scalaworkspace/wrapper-controller-service" value="1495446514573" />
+        <entry key="$USER_HOME$/scalaworkspace/zipmeta" value="1484022668731" />
+        <entry key="$PROJECT_DIR$" value="10803725914000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="4155880897" />
+        <entry key="$PROJECT_DIR$/project/MOOCPlugin.scala" value="4243948302" />
+        <entry key="$PROJECT_DIR$/project/StudentPlugin.scala" value="3360634139" />
+        <entry key="$PROJECT_DIR$/project/StyleChecker.scala" value="1829885798" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2096222171" />
+        <entry key="$PROJECT_DIR$/project/buildSettings.sbt" value="2147578330" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="3251424836" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/scalaworkspace/ad-config-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/scalaworkspace/ad-user-profile-original/ad-user-profile-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/scalaworkspace/app-update-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/scalaworkspace/coursera-frp/calculator" value="PREVIEW" />
+        <entry key="$USER_HOME$/scalaworkspace/finatra" value="PREVIEW" />
+        <entry key="$USER_HOME$/scalaworkspace/scalajs-tutorial" value="PREVIEW" />
+        <entry key="$USER_HOME$/scalaworkspace/vsts/ad-proxy-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../ScalaJS-D3-Example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../ScalaZen-Library" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/../ad-category-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../ad-config-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../ad-fillrate-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../ad-impression-click-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../ad-payout-admin-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../ad-payout-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../ad-registration-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../ad-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../ad-track-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../ad-user-profile-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../app-ad-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../app-update-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../app-update-v2-test/app-update-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../aws-s3" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../aws-sdk-scalajs-facade" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../cats-effect-tutorial" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../ci-helloworld" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../d3-facade-reference1/scala-js-d3-example-app" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../ddd-on-scala" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../exercises-circe" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../exercises-shapeless" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../finatra" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../finatra-petstore" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../finatra.g8/sample20180524" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../finatra.g8/sample20180529" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../finatra.g8/sample20180724" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../finatra.g8/sample20181031" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../finatra.g8/testcrossproject20180727" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../finch" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../finch-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../finch-petstore" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../finch-practice" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../finch-template" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../free-app-promo-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../goggles" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../huts-api" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../lambda-scalajs-reporter" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../mock-alipay-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../mwc-promote-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../my-scalajs-threejs-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../play-scalajs.g8" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../play-scalajs.g8/sample20180724" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../sbt-aws-serverless-ddd.g8" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../scala-js-d3" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../scala-js-d3-example-app" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../scala-js-dom" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../scala-js-games" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../scala-opengl" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../scalajs-cross-compile-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../scalajs-d3-dashboard" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../scalajs-examples" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../scalajs-simple-canvas-game" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../scalajs-spa-tutorial" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../talks/2018-12-13/demo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../threejs-facade" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../threejs-scalajs-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../tictactoe" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../tutorial-cat" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../workbench-example-app" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0529acd-edbd-4828-b5c5-d81908482a26" name="Default" comment="" />
+      <created>1552273750974</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552273750974</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="sbt" />
+      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info id="Designer" />
+      <window_info id="Project Explorer" />
+      <window_info id="Job Explorer" />
+      <window_info anchor="bottom" id="Build" weight="0.24631579" />
+      <window_info anchor="bottom" id="Console" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="DB Browser" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.404837" />
+      <window_info anchor="right" id="FAQ Robot" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21218836" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assignment.sbt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.5.16/akka-actor_2.11-2.5.16.jar!/akka/actor/Actor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.5/scalatest_2.11-3.0.5.jar!/org/scalatest/Assertions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/actorbintree/BinaryTreeSet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="218" column="3" selection-start-line="218" selection-start-column="3" selection-end-line="218" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#97#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/actorbintree/BinaryTreeSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#97#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

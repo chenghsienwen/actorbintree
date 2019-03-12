@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: org.agrona:Agrona:0.5.4:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/org/agrona/Agrona/0.5.4/Agrona-0.5.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

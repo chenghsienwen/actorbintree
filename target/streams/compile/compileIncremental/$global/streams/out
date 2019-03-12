@@ -1,0 +1,38 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/chenghsien/vsts/actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(actorbintree.BinaryTreeNode, actorbintree.BinaryTreeSet.GC, actorbintree.BinaryTreeSet.OperationFinished, actorbintree.BinaryTreeSet.Remove, actorbintree.BinaryTreeSet.Contains, actorbintree.BinaryTreeSet.Operation, actorbintree.BinaryTreeSet, actorbintree.BinaryTreeSet.ContainsResult, actorbintree.BinaryTreeSet.Insert, actorbintree.BinaryTreeSet.OperationReply, actorbintree.BinaryTreeNode.Position, actorbintree.BinaryTreeNode.Left, actorbintree.BinaryTreeNode.CopyTo, actorbintree.BinaryTreeNode.Right, actorbintree.BinaryTreeNode.CopyFinished)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /home/chenghsien/vsts/actorbintree/target/scala-2.11/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.11:1.1.7:compile for Scala 2.11.12[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.11:1.1.7:compile for Scala 2.11.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 10270613 for Scala compiler version 2.11.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-feature[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-encoding[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UTF-8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-unchecked[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Yno-adapted-args[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-dead-code[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-value-discard[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xfuture[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xexperimental[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/chenghsien/jdk1.8.0_181/jre/lib/resources.jar:/home/chenghsien/jdk1.8.0_181/jre/lib/rt.jar:/home/chenghsien/jdk1.8.0_181/jre/lib/sunrsasign.jar:/home/chenghsien/jdk1.8.0_181/jre/lib/jsse.jar:/home/chenghsien/jdk1.8.0_181/jre/lib/jce.jar:/home/chenghsien/jdk1.8.0_181/jre/lib/charsets.jar:/home/chenghsien/jdk1.8.0_181/jre/lib/jfr.jar:/home/chenghsien/jdk1.8.0_181/jre/classes:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/chenghsien/vsts/actorbintree/target/scala-2.11/classes:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.5/scalatest_2.11-3.0.5.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/com/github/romix/akka/akka-kryo-serialization_2.11/0.5.0/akka-kryo-serialization_2.11-0.5.0.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream-typed_2.11/2.5.16/akka-stream-typed_2.11-2.5.16.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.5.16/akka-stream_2.11-2.5.16.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.5.16/akka-actor_2.11-2.5.16.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.11/2.5.16/akka-actor-typed_2.11-2.5.16.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.2/objenesis-2.2.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.5/scalactic_2.11-3.0.5.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/io/aeron/aeron-driver/1.0.1/aeron-driver-1.0.1.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.11/akka-remote_2.11-2.4.11.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/org/agrona/Agrona/0.5.4/Agrona-0.5.4.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.1.1/scala-parser-combinators_2.11-1.1.1.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.2.4/ssl-config-core_2.11-0.2.4.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.5.16/akka-protobuf_2.11-2.5.16.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/com/esotericsoftware/kryo/4.0.0/kryo-4.0.0.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/io/aeron/aeron-client/1.0.1/aeron-client-1.0.1.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar:/home/chenghsien/.coursier/cache/v1/https/repo1.maven.org/maven2/com/esotericsoftware/reflectasm/1.11.3/reflectasm-1.11.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 8.800196081 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
