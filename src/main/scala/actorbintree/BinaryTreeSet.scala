@@ -6,6 +6,7 @@ package actorbintree
 import actorbintree.BinaryTreeNode.{CopyFinished, CopyTo}
 import actorbintree.BinaryTreeSet._
 import akka.actor._
+import akka.event.Logging
 
 import scala.collection.immutable.Queue
 
@@ -117,7 +118,7 @@ class BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {
 
   // optional
   def receive = normal
-
+  val log = Logging(context.system, this)
   // optional
   /** Handles `Operation` messages and `CopyTo` requests. */
   val normal: Receive = {
@@ -147,7 +148,12 @@ class BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {
             }
           }
         }
-        case e if e == this.elem => req ! OperationFinished(id)
+        case e if e == this.elem => {
+          if (removed) {
+            removed = false
+          }
+          req ! OperationFinished(id)
+        }
       }
     }
     case Contains(req, id, elem) => {
@@ -165,30 +171,52 @@ class BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {
       }
     }
     case Remove(req, id, elem) => {
+      log.debug("Starting BinaryTreeNode.Remove id=" + id + " elem=" + elem)
       elem match {
         case e if e == this.elem => {
+          log.debug("Removed node id=" + id + " em=" + elem)
           this.removed = true
           req ! OperationFinished(id)
         }
         case e if e < this.elem && subtrees.contains(Left) => {
           val left = subtrees(Left)
+          log.debug("trace left node id=" + id + " em=" + elem)
           left ! Remove(req, id, e)
         }
         case e if e > this.elem && subtrees.contains(Right)=> {
           val right = subtrees(Right)
+          log.debug("trace right node id=" + id + " em=" + elem)
           right ! Remove(req, id, e)
         }
-        case _ => req ! OperationFinished(id)
+        case _ => {
+          log.debug("can't find node id=" + id + " em=" + elem)
+          req ! OperationFinished(id)
+        }
       }
     }
     case CopyTo(treeNode) => {
-      (this.removed, subtrees.isEmpty) match {
-        case (true, true) => sender ! CopyFinished
-        case (false, _) => {
+      if (removed && subtrees.isEmpty) {
+        context.parent ! CopyFinished
+        context.stop(self)
+        // log.debug("Do not copy removed leaf node elem=" + elem)
+      } else {
+        var expected = Set[ActorRef]()
+        if (subtrees contains Left) {
+          expected += subtrees(Left)
+        }
+        if (subtrees contains Right) {
+          expected += subtrees(Right)
+        }
+      
+        if (removed) {
+          context.become(copying(expected, true))
+          // log.debug("Copy subtrees of removed node elem=" + elem)
+        } else {
+          context.become(copying(expected, false))
           treeNode ! Insert(self, 0, elem)
           subtrees.values.foreach(_ ! CopyTo(treeNode))
         }
-        case (_, _) => context.become(copying(subtrees.values.toSet, insertConfirmed = removed))
+        subtrees.values foreach {_ ! CopyTo(treeNode)}
       }
     }
   }
@@ -201,8 +229,8 @@ class BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {
     case OperationFinished(_) => {
       expected.isEmpty match {
         case true => {
-          sender ! CopyFinished
-          context.become(normal)
+          context.parent ! CopyFinished
+          context.stop(self)
         }
         case false => context.become(copying(expected, true))
       }
@@ -211,8 +239,8 @@ class BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {
       val newExpected = expected - sender
       (newExpected.isEmpty, insertConfirmed) match {
         case (true, true) => {
-          sender ! CopyFinished
-          context.become(normal)
+          context.parent ! CopyFinished
+          context.stop(self)
         }
         case (_, _) => context.become(copying(newExpected, insertConfirmed))
       }

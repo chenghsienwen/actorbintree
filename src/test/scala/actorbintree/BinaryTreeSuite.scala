@@ -9,7 +9,7 @@ import org.scalatest.{BeforeAndAfterAll, FunSuiteLike, Matchers}
 
 import scala.concurrent.duration._
 import scala.util.Random
-
+//sbt 'testOnly -- -z "behave identically to built-in set (includes GC)"'
 class BinaryTreeSuite(_system: ActorSystem) extends TestKit(_system) with FunSuiteLike with Matchers with BeforeAndAfterAll with ImplicitSender
 {
 
@@ -84,6 +84,28 @@ class BinaryTreeSuite(_system: ActorSystem) extends TestKit(_system) with FunSui
       )
 
     verify(requester, ops, expectedReplies)
+  }
+
+  test("insert after being removed") {
+    val topNode = system.actorOf(Props[BinaryTreeSet])
+
+    topNode ! Contains(testActor, id = 1, 1)
+    expectMsg(ContainsResult(1, false))
+
+    topNode ! Insert(testActor, id = 2, 1)
+    topNode ! Contains(testActor, id = 3, 1)
+
+    expectMsg(OperationFinished(2))
+    expectMsg(ContainsResult(3, true))
+    topNode ! Remove(testActor, id = 4, 1)
+    topNode ! Contains(testActor, id = 4, 1)
+    expectMsg(OperationFinished(4))
+    expectMsg(ContainsResult(4, false))
+    topNode ! Insert(testActor, id = 5, 1)
+    topNode ! Contains(testActor, id = 5, 1)
+    expectMsg(OperationFinished(5))
+    expectMsg(ContainsResult(5, true))
+    ()
   }
 
   test("behave identically to built-in set (includes GC)") {
