@@ -195,28 +195,25 @@ class BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {
       }
     }
     case CopyTo(treeNode) => {
-      if (removed && subtrees.isEmpty) {
-        context.parent ! CopyFinished
-        context.stop(self)
-        // log.debug("Do not copy removed leaf node elem=" + elem)
-      } else {
-        var expected = Set[ActorRef]()
-        if (subtrees contains Left) {
-          expected += subtrees(Left)
+      removed && subtrees.isEmpty match {
+        case true => {
+          context.parent ! CopyFinished
+          context.stop(self)
         }
-        if (subtrees contains Right) {
-          expected += subtrees(Right)
+        case false => {
+          val expected = subtrees.values.toSet[ActorRef]
+          removed match {
+            case true => context.become(copying(expected, true))
+            case false => {
+              context.become(copying(expected, false))
+              treeNode ! Insert(self, 0, elem)
+              subtrees.values.foreach(_ ! CopyTo(treeNode))
+            }
+          }
+          subtrees.values foreach {
+            _ ! CopyTo(treeNode)
+          }
         }
-      
-        if (removed) {
-          context.become(copying(expected, true))
-          // log.debug("Copy subtrees of removed node elem=" + elem)
-        } else {
-          context.become(copying(expected, false))
-          treeNode ! Insert(self, 0, elem)
-          subtrees.values.foreach(_ ! CopyTo(treeNode))
-        }
-        subtrees.values foreach {_ ! CopyTo(treeNode)}
       }
     }
   }
